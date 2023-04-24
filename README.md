@@ -21,7 +21,7 @@ Follow these steps to install Mind Guard Droid 2023:
 
 1. Install Termux app on Android >= 7 from [GitHub](https://github.com/termux/termux-app) or [F-Droid](https://f-droid.org/en/packages/com.termux/)
 2. Check your device architecture by running the following command in Termux: `uname -m`
-3. Download the Termux backup file from the [GitHub release page](https://github.com/mindguard-droid-2023/mindguard-android-2023/releases) (file name: termux-backup-tar.gz, file size: 631MB)
+3. Download the Termux backup file from the [GitHub release page](https://github.com/ti3000/MindGuardDroid/releases/tag/mindguard) (file name: termux-backup-tar.gz, file size: 631MB)
 4. Move the downloaded file to the root of the internal storage
 5. Open Termux and run the following commands:
 
