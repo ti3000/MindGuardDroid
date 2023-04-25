@@ -67,6 +67,7 @@ We would like to give credit to the following:
 ## Links
 
 - [Sourceforge Backup](https://sourceforge.net/projects/mindguarddroid/)
+- [Google Drive Backup](https://drive.google.com/uc?export=download&id=1foFRbiPhuYTcepLf0kilyMN3zVMYlPj0)
 - [MindGuard YouTube Channel](https://www.youtube.com/@mindguarddroid)
-- [WebSite](https://sites.google.com/site/mindguarddroid/)
-- [Developer TI3000 Facebook](https://www.facebook.com/teye.threethousand/)
+- [MindGuard OS WebSite](https://sites.google.com/site/mindguarddroid/)
+- [Developer TI3000 Meta](https://www.facebook.com/teye.threethousand/)
