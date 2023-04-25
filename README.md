@@ -35,8 +35,8 @@ tar -zxf /sdcard/termux-backup.tar.gz -C /data/data/com.termux/files --recursive
 
 6. Set up VNC with the following settings: 
 ```
-    Address: 127.0.0.1:5901
-    Password: 12345678
+Address: 127.0.0.1:5901
+Password: 12345678
 ```
 7. Start the Mind Guard Droid distro by running `./start-debian.sh` in Termux
 
@@ -46,10 +46,10 @@ tar -zxf /sdcard/termux-backup.tar.gz -C /data/data/com.termux/files --recursive
 
 Solution:
 ``` 
-		vncserver-stop
-		rm /tmp/.X1-lock
-		rm /tmp/.x11-unix/X1
-		vncserver-start
+vncserver-stop
+rm /tmp/.X1-lock
+rm /tmp/.x11-unix/X1
+vncserver-start
 ```
 
 If the above solution does not work, you can try using a different display number (e.g. `vncserver :2`).
@@ -62,9 +62,6 @@ export DISPLAY=":2"
 We would like to give credit to the following:
 
 - Lyle Zapato (MindGuard Developer)
-- Asbestomolesto (GTK error fix)
-- Termux
-- VNC
 - TI Community
 
 ## Links
