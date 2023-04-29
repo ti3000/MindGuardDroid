@@ -19,9 +19,9 @@ Android minimum system requirements:
 
 Follow these steps to install Mind Guard Droid 2023:
 
-1. Install Termux app on Android >= 7 from [GitHub](https://github.com/termux/termux-app) or [F-Droid](https://f-droid.org/en/packages/com.termux/)
+1. Install Termux app on Android from [F-Droid](https://f-droid.org/en/packages/com.termux/) or [GitHub](https://github.com/termux/termux-app)
 2. Check your device architecture by running the following command in Termux: `uname -m`
-3. Download the Termux backup file from the [GitHub release page](https://github.com/ti3000/MindGuardDroid/releases/tag/mindguard) (file name: termux-backup-tar.gz, file size: 631MB)
+3. Download the Termux backup file from the [GitHub release page](https://github.com/ti3000/MindGuardDroid/releases/tag/mindguard) (file name: termux-backup-tar.gz)
 4. Move the downloaded file to the root of the internal storage
 5. Open Termux and run the following commands:
 
@@ -32,14 +32,15 @@ pkg install x11-repo
 termux-setup-storage
 tar -zxf /sdcard/termux-backup.tar.gz -C /data/data/com.termux/files --recursive-unlink --preserve-permissions
 ```
+6. Start the Mind Guard Droid distro by running `./start-debian.sh` in Termux
 
-6. Set up VNC with the following settings: 
+7. Start VNC Server with `vncserver-start` command
+
+Set up VNC App with the following settings: 
 ```
 Address: 127.0.0.1:5901
-Password: 12345678
+Password: 123456
 ```
-7. Start the Mind Guard Droid distro by running `./start-debian.sh` in Termux
-
 ## Known Issues
 
 - VNC server start error (warning: localhost:1 is taken because of /tmp/.X1-lock or /tmp/.X11-unix/X1)
@@ -54,7 +55,7 @@ vncserver-start
 
 If the above solution does not work, you can try using a different display number (e.g. `vncserver :2`).
 ```
-export DISPLAY=":2"
+export DISPLAY=":1"
 ```
 
 ## Credits
